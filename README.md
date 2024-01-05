@@ -5,3 +5,8 @@ https://github.com/mihai-dinculescu/tapo/tree/main
 https://github.com/mihai-dinculescu/tapo/blob/main/tapo-py/examples/tapo_p110.py
 
 https://github.com/mihai-dinculescu/tapo/blob/main/tapo-py/tapo.pyi
+
+
+Creates the following plot:
+
+![Screenshot](Energy_usage.png)
