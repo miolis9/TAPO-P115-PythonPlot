@@ -15,13 +15,11 @@ nest_asyncio.apply()
 
 #Set the timeperiod to fetch data to from today to 6 months back:
 timeperiodstart=datetime.now() - relativedelta(months=6)
-
-
 start_date = str(timeperiodstart.date())  # input start date
 end_date = str(datetime.now().date())  # input end date
 
-month_list = [int(i.strftime("20%y%m"))for i in pd.date_range(start=start_date, end=end_date, freq='MS')]
 
+month_list = [int(i.strftime("20%y%m"))for i in pd.date_range(start=start_date, end=end_date, freq='MS')]
 month_list=pd.DataFrame(month_list,columns=['yearmonth'])
 
 
