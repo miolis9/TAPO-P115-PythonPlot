@@ -13,7 +13,7 @@ import nest_asyncio
 nest_asyncio.apply()
 
 
-#Set the timeperiod to fetch data to from today to 6 months back:
+#Set the timeperiod to fetch data from today to 6 months back:
 timeperiodstart=datetime.now() - relativedelta(months=6)
 start_date = str(timeperiodstart.date())  # input start date
 end_date = str(datetime.now().date())  # input end date
