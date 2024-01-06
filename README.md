@@ -1,4 +1,4 @@
-To get monthly energy usasge from all devices into one plot. From today to 6 months back.
+To get monthly energy usage from all devices into one plot. From today to 6 months back.
 
 
 
